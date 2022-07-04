@@ -1,0 +1,50 @@
+
+
+@media (max-width: 1100px) {
+	.kairo_sections_wrap{position: relative;top: auto;left: auto;padding: 0px;opacity: 1;visibility: visible;transform: scale(1);transform: translateX(0);margin-bottom: 20px;float: left;}
+	.kairo_wrap_all.kairo_main_animation_1 .kairo_sections_wrap{transform: scale(1);transform: translateX(0);}
+	.kairo_wrap_all.kairo_main_animation_2 .kairo_sections_wrap{transform: scale(1);}
+	.kairo_wrap_all.kairo_main_animation_3 .kairo_sections_wrap{transform: scale(1);}
+	.kairo_wrap_all.kairo_main_animation_4 .kairo_sections_wrap{transform: scale(1);}
+	.kairo_sections_wrap:last-child{margin-bottom: 0px;}
+	.kairo_centered_box .menubox{display: none;}
+	.kairo_centered_box .authorbox{display: none;}
+	.kairo_wrap_all .wrapper_inner{min-height: 100vh;background-color: #050505;}
+	.kairo_centered_box{width: 100%;height:auto;position: relative;top: auto;left: auto;transform: translate(0,0);}
+	.kairo_centered_box .mainpart{width: 100%;height: auto;position: relative;right: auto;bottom: auto;}
+	.kairo_centered_box .mainpart .top_shape{display: none;}
+	.kairo_centered_box .mainpart .bottom_shape{display: none;}
+	.kairo_centered_box .mainpart .mainpart_inner{padding: 0px;background-color:#050505;}
+	.kairo_news ul li .inner .descriptions{padding: 20px 20px 13px 20px;}
+	.kairo_contact #map{display: none;}
+	.progress_inner:nth-child(1) .background:before{display: none;}
+	.progress_inner:nth-child(2) .background:before{display: none;}
+	.progress_inner:nth-child(3) .background:before{display: none;}
+	.kairo_news_single{padding: 150px 20px 20px 20px;}
+	.grax_topbar .trigger{display: block;}
+	.kairo_tools{display: none;}
+	.grax_topbar{display: block;}
+	body[data-skin="light"] .kairo_centered_box .mainpart .mainpart_inner{background-color: #fff;}
+}
+@media (max-width: 768px) {
+	.kairo_centered_box .mainpart .short_info_list ul li{width: 100%;}
+	.kairo_portfolio .portfolio li{width: 100%;padding-left: 0px;}
+	.kairo_portfolio .portfolio{margin: 0px;}
+	.kairo_news ul li .inner .descriptions{flex-direction: column;align-items: flex-start;}
+	.kairo_news ul li .inner .descriptions .left{margin-bottom: 20px;}
+	.kairo_contact .contact_inner{flex-direction: column;}
+	.kairo_contact .contact_inner .left{width: 100%;margin-bottom: 30px;}
+	.kairo_contact .contact_inner .right{width: 100%;top: 0px;}
+	.kairo_contact .contact_inner .right .first_row ul li{width: 100%;padding-left: 0px;}
+	.kairo_contact .contact_inner .right .first_row ul{margin: 0px;}
+	.kairo_service_list ul li{width: 100%;padding-left: 0px;}
+	.kairo_service_list ul{margin: 0px;}
+	.kairo_pricing > ul > li{width: 100%;padding-left: 0px;}
+	.kairo_pricing > ul{margin: 0px;}
+	.kairo_news ul li{width: 100%;padding-left: 0px;}
+	.kairo_news ul{margin: 0px;}
+	.section_inner{padding: 20px;}
+	.kairo_porfolio_single .descriptions{flex-direction: column;}
+	.kairo_porfolio_single .details{width: 100%;margin-bottom: 40px;}
+	.kairo_porfolio_single .text{width: 100%;}
+}
